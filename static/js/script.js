@@ -41,14 +41,23 @@ window.addEventListener('load', () => {
     // showBotTyping();
     // $("#userInput").prop('disabled', true);
 
-    // if you want the bot to start the conversation
-    // customActionTrigger();
+    //if you want to send a custom message to rasa bot upon connection as a hellow or to make rasa aware of a new client
+    if(custom_hello_message_to_rasa) send(custom_hello_message_to_rasa)
+
+    // if you want the bot to run a custom action upon connection
+    if(action_name) customActionTrigger();
   });
   // Toggle the chatbot screen
-  $("#profile_div").click(() => {
+  if(open_agent_on_load){
     $(".profile_div").toggle();
     $(".widget").toggle();
-  });
+  }else{
+    $("#profile_div").click(() => {
+      $(".profile_div").toggle();
+      $(".widget").toggle();
+    });
+  }
+ 
 
   // clear function to clear the chat contents of the widget.
   $("#clear").click(() => {
