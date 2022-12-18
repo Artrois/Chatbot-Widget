@@ -1,4 +1,4 @@
-## 🔥 **[Widget 2.0](https://github.com/JiteshGaikwad/Chatbot-Widget/tree/Widget2.0) released, built using React JS & Tailwind CSS**
+## 🔥 **[Widget 2.0](https://github.com/JiteshGaikwad/Chatbot-Widget/tree/Widget2.0) released, built using React JS & Tailwind CSS. This is a fork from here: https://github.com/JiteshGaikwad/Chatbot-Widget**
 
 ![ScreenShot](static/img/banner.png)
 
