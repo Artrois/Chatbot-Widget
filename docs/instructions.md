@@ -4,7 +4,7 @@
 
 ## Integration
 
-- Step 1: Since this Chat UI communicates with the Rasa server using `rest` channel, make sure you have added `rest` channel in the `credentials.yml` file
+- Step 1: Since this Chat UI communicates with the Rasa server using `rest` channel, make sure you have added `rest` channel in the `credentials.yml` file in your rasa project
 - Once you have developed your bot and you are ready to integrate the bot with the UI, you can start the Rasa server using the below command
   ```
   rasa run -m models --enable-api --cors "*" --debug
